@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="300">
+<title>农场作业打卡</title>
+<style>
+  :root {
+    --fg: #1a1a1a; --fg2: #555; --fg3: #999; --bd: #e5e5e5;
+    --green: #16a34a; --green-bg: #eaf7ee;
+    --red: #dc2626; --red-bg: #fdecec;
+    --amber: #d97706; --gray: #bbb;
+    --accent: #2563eb; --accent-bg: #eaf1fd;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 16px; max-width: 760px; margin-inline: auto;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: var(--fg); background: #fafafa;
+  }
+  .head { margin-bottom: 14px; }
+  .title { font-size: 20px; font-weight: 600; }
+  .meta { font-size: 13px; color: var(--fg3); margin-top: 4px; }
+  .acc {
+    background: #fff; border: 1px solid var(--bd); border-radius: 12px;
+    padding: 14px; margin-bottom: 12px;
+  }
+  .acc-head {
+    display: flex; align-items: center; flex-wrap: wrap;
+    gap: 8px; margin-bottom: 10px;
+  }
+  .acc-name { font-size: 16px; font-weight: 600; }
+  .zone-chips { display: flex; gap: 8px; flex: 1; flex-wrap: wrap; align-items: center; }
+  .zlabel { font-size: 12px; color: var(--fg3); }
+  .zone-chip {
+    border-radius: 8px; padding: 3px 10px; background: var(--accent-bg);
+    display: inline-flex; align-items: baseline; gap: 5px; white-space: nowrap;
+  }
+  .zone-chip .ztag { font-size: 11px; font-weight: 600; color: var(--accent); }
+  .zone-chip .zseq { font-size: 12px; color: var(--fg2); }
+  .zone-chip .zplant { font-size: 13px; font-weight: 600; }
+  .zone-chip .zmat { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .acc-upload { font-size: 12px; color: var(--fg3); font-variant-numeric: tabular-nums; margin-inline-start: auto; }
+  .checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+  .chk { border-radius: 8px; padding: 8px 10px; border: 1px solid var(--bd); }
+  .chk .lbl { font-size: 12px; color: var(--fg2); display: flex; align-items: center; gap: 6px; }
+  .chk .st { font-size: 13px; margin-top: 3px; font-variant-numeric: tabular-nums; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .done, .late { background: var(--green-bg); }
+  .done .dot, .late .dot { background: var(--green); }
+  .missed { background: var(--red-bg); }
+  .missed .dot { background: var(--red); }
+  .pending .dot { background: var(--amber); }
+  .nodata .dot { background: var(--gray); }
+  .legend { font-size: 12px; color: var(--fg3); margin-top: 6px; line-height: 1.7; }
+  .empty { padding: 48px 0; text-align: center; color: var(--fg3); font-size: 14px; }
+  .err { color: var(--red); }
+</style>
+</head>
+<body>
+<div class="head">
+  <div class="title">农场作业打卡</div>
+  <div class="meta" id="meta">加载中…</div>
+</div>
+<div id="list"></div>
+<div class="empty" id="empty">等待数据…</div>
+<div class="legend" id="legend" style="display:none">
+  判定规则：翻耕按地块「上次」时间是否落在窗口内；日常按「领完/待领」；祈福看是否已完成。括注为采集时间。绿色完成，黄色进行中，红色未完成。页面每 5 分钟自动刷新。
+</div>
+
+<script>
+(function () {
+  var CHECKS = [
+    ['fg_am', '翻耕 · 早班'],
+    ['daily', '日常'],
+    ['wish',  '祈福'],
+    ['fg_pm', '翻耕 · 晚班']
+  ];
+  var STXT = { done: '✓ ', missed: '✗ ', pending: '… ', late: '✓ ', nodata: '? ' };
+
+  function p2(n) { return n < 10 ? '0' + n : '' + n; }
+  function fmtUpload(iso) {
+    var d = new Date(iso);
+    if (!iso || isNaN(d)) return '-';
+    return p2(d.getHours()) + ':' + p2(d.getMinutes());
+  }
+  function fmtFetched(iso) {
+    var d = new Date(iso);
+    if (!iso || isNaN(d)) return '-';
+    return (d.getMonth() + 1) + '-' + p2(d.getDate()) + ' ' + p2(d.getHours()) + ':' + p2(d.getMinutes());
+  }
+  function zoneChip(tag, z) {
+    var el = document.createElement('span');
+    el.className = 'zone-chip';
+    if (!z || z.seq == null) {
+      el.innerHTML = '<span class="ztag">' + tag + '</span><span class="zplant">-</span>';
+      return el;
+    }
+    el.innerHTML =
+      '<span class="ztag">' + tag + '</span>' +
+      '<span class="zseq">#' + z.seq + '</span>' +
+      '<span class="zplant"></span>' +
+      '<span class="zmat">' + (z.maturity || '-') + '</span>';
+    el.querySelector('.zplant').textContent = z.plant || '-';
+    return el;
+  }
+
+  function render(data) {
+    var list = document.getElementById('list');
+    var emptyEl = document.getElementById('empty');
+    var legend = document.getElementById('legend');
+    var ops = data && data.ops;
+    list.innerHTML = '';
+    if (!ops || !ops.accounts || !ops.accounts.length) {
+      emptyEl.style.display = '';
+      legend.style.display = 'none';
+      return;
+    }
+    emptyEl.style.display = 'none';
+    legend.style.display = '';
+    document.getElementById('meta').textContent =
+      ops.date + ' · 采集于 ' + fmtFetched(data.fetched_at) + ' · 每班自动更新';
+
+    ops.accounts.forEach(function (a) {
+      var box = document.createElement('div');
+      box.className = 'acc';
+
+      var head = document.createElement('div');
+      head.className = 'acc-head';
+      head.innerHTML = '<span class="acc-name"></span><span class="zone-chips"></span>' +
+                       '<span class="acc-upload">最后上传 ' + fmtUpload(a.last_upload) + '</span>';
+      head.querySelector('.acc-name').textContent = a.name;
+      var chips = head.querySelector('.zone-chips');
+      var zl = document.createElement('span');
+      zl.className = 'zlabel';
+      zl.textContent = '成熟时间：';
+      chips.appendChild(zl);
+      chips.appendChild(zoneChip('首区', a.first_zone));
+      chips.appendChild(zoneChip('尾区', a.last_zone));
+      box.appendChild(head);
+
+      var checks = document.createElement('div');
+      checks.className = 'checks';
+      CHECKS.forEach(function (c) {
+        var ck = (a.checks || {})[c[0]] || { status: 'nodata', detail: '无数据' };
+        var el = document.createElement('div');
+        el.className = 'chk ' + ck.status;
+        el.innerHTML = '<div class="lbl"><span class="dot"></span><span>' + (ck.label || c[1]) + '</span></div>' +
+                       '<div class="st">' + (STXT[ck.status] || '') + '<span class="dt"></span></div>';
+        el.querySelector('.dt').textContent = ck.detail || '';
+        checks.appendChild(el);
+      });
+      box.appendChild(checks);
+      list.appendChild(box);
+    });
+  }
+
+  fetch('dashboard.json?_=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(render)
+    .catch(function (e) {
+      document.getElementById('meta').innerHTML =
+        '<span class="err">数据加载失败：' + e.message + '</span>';
+    });
+})();
+</script>
+</body>
+</html>
