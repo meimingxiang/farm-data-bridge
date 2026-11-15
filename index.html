@@ -33,6 +33,7 @@
   .acc-name { font-size: 16px; font-weight: 600; }
   .zones { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
   .zlabel { font-size: 12px; color: var(--fg3); flex: none; }
+  .zline { font-size: 13px; color: var(--fg); font-variant-numeric: tabular-nums; }
   .zone-chip {
     border-radius: 8px; padding: 3px 10px; background: var(--accent-bg);
     display: inline-flex; align-items: baseline; gap: 5px; white-space: nowrap;
@@ -117,6 +118,18 @@
     return el;
   }
 
+  function matTime(z) {
+    var m = z && z.maturity;
+    if (!m) return '-';
+    var i = m.indexOf('|');
+    return i >= 0 ? m.slice(i + 1) : m;
+  }
+  function zoneLine(a) {
+    var p1 = (a.first_zone && a.first_zone.plant) || '-';
+    var p2 = (a.last_zone && a.last_zone.plant) || '-';
+    return p1 + ' ' + matTime(a.first_zone) + ' - ' + p2 + ' ' + matTime(a.last_zone);
+  }
+
   function render(data) {
     var list = document.getElementById('list');
     var emptyEl = document.getElementById('empty');
@@ -146,12 +159,9 @@
 
       var zones = document.createElement('div');
       zones.className = 'zones';
-      var zl = document.createElement('span');
-      zl.className = 'zlabel';
-      zl.textContent = '成熟时间：';
-      zones.appendChild(zl);
-      zones.appendChild(zoneChip('首区', a.first_zone));
-      zones.appendChild(zoneChip('尾区', a.last_zone));
+      zones.innerHTML = '<span class="zlabel">成熟时间：</span>' +
+                        '<span class="zline"></span>';
+      zones.querySelector('.zline').textContent = zoneLine(a);
       box.appendChild(zones);
 
       var checks = document.createElement('div');
