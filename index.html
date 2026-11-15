@@ -26,13 +26,13 @@
     background: #fff; border: 1px solid var(--bd); border-radius: 12px;
     padding: 14px; margin-bottom: 12px;
   }
-  .acc-head {
-    display: flex; align-items: center; flex-wrap: wrap;
-    gap: 8px; margin-bottom: 10px;
+  .acc-top {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 8px; margin-bottom: 8px;
   }
   .acc-name { font-size: 16px; font-weight: 600; }
-  .zone-chips { display: flex; gap: 8px; flex: 1; flex-wrap: wrap; align-items: center; }
-  .zlabel { font-size: 12px; color: var(--fg3); }
+  .zones { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+  .zlabel { font-size: 12px; color: var(--fg3); flex: none; }
   .zone-chip {
     border-radius: 8px; padding: 3px 10px; background: var(--accent-bg);
     display: inline-flex; align-items: baseline; gap: 5px; white-space: nowrap;
@@ -41,7 +41,7 @@
   .zone-chip .zseq { font-size: 12px; color: var(--fg2); }
   .zone-chip .zplant { font-size: 13px; font-weight: 600; }
   .zone-chip .zmat { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
-  .acc-upload { font-size: 12px; color: var(--fg3); font-variant-numeric: tabular-nums; margin-inline-start: auto; }
+  .acc-upload { font-size: 12px; color: var(--fg3); font-variant-numeric: tabular-nums; flex: none; }
   .checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
   .chk { border-radius: 8px; padding: 8px 10px; border: 1px solid var(--bd); }
   .chk .lbl { font-size: 12px; color: var(--fg2); display: flex; align-items: center; gap: 6px; }
@@ -56,6 +56,17 @@
   .legend { font-size: 12px; color: var(--fg3); margin-top: 6px; line-height: 1.7; }
   .empty { padding: 48px 0; text-align: center; color: var(--fg3); font-size: 14px; }
   .err { color: var(--red); }
+  @media (max-width: 480px) {
+    body { padding: 10px; }
+    .acc { padding: 12px; border-radius: 10px; margin-bottom: 10px; }
+    .acc-name { font-size: 15px; }
+    .zones { gap: 5px; }
+    .zone-chip { padding: 3px 8px; }
+    .checks { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+    .chk { padding: 7px 8px; }
+    .chk .lbl { font-size: 11px; }
+    .chk .st { font-size: 12px; }
+  }
 </style>
 </head>
 <body>
@@ -127,18 +138,21 @@
       box.className = 'acc';
 
       var head = document.createElement('div');
-      head.className = 'acc-head';
-      head.innerHTML = '<span class="acc-name"></span><span class="zone-chips"></span>' +
+      head.className = 'acc-top';
+      head.innerHTML = '<span class="acc-name"></span>' +
                        '<span class="acc-upload">最后上传 ' + fmtUpload(a.last_upload) + '</span>';
       head.querySelector('.acc-name').textContent = a.name;
-      var chips = head.querySelector('.zone-chips');
+      box.appendChild(head);
+
+      var zones = document.createElement('div');
+      zones.className = 'zones';
       var zl = document.createElement('span');
       zl.className = 'zlabel';
       zl.textContent = '成熟时间：';
-      chips.appendChild(zl);
-      chips.appendChild(zoneChip('首区', a.first_zone));
-      chips.appendChild(zoneChip('尾区', a.last_zone));
-      box.appendChild(head);
+      zones.appendChild(zl);
+      zones.appendChild(zoneChip('首区', a.first_zone));
+      zones.appendChild(zoneChip('尾区', a.last_zone));
+      box.appendChild(zones);
 
       var checks = document.createElement('div');
       checks.className = 'checks';
