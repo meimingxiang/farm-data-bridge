@@ -525,7 +525,7 @@
  ],
  "ops": {
   "date": "2026-11-16",
-  "now": "14:08",
+  "now": "16:39",
   "deadlines": {
    "fg_am": "主号 8:00 前 / 118 号 0–5 点",
    "daily": "主号 14:00 前 / 118 号 15–24 点",
@@ -560,8 +560,8 @@
       "label": "日常 · 14:00 前"
      },
      "wish": {
-      "status": "pending",
-      "detail": "0/21 已祈福（14:03）",
+      "status": "missed",
+      "detail": "0/21 未祈福（14:03）",
       "label": "祈福 · 16:00 前"
      },
      "fg_pm": {
@@ -598,8 +598,8 @@
       "label": "日常 · 14:00 前"
      },
      "wish": {
-      "status": "pending",
-      "detail": "0/22 已祈福（14:03）",
+      "status": "missed",
+      "detail": "0/22 未祈福（14:03）",
       "label": "祈福 · 16:00 前"
      },
      "fg_pm": {
@@ -636,8 +636,8 @@
       "label": "日常 · 14:00 前"
      },
      "wish": {
-      "status": "pending",
-      "detail": "0/18 已祈福（14:03）",
+      "status": "missed",
+      "detail": "0/18 未祈福（14:03）",
       "label": "祈福 · 16:00 前"
      },
      "fg_pm": {
