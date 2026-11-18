@@ -1,32 +1,32 @@
 {
- "summary": "[claw] 采集完成 2026-11-18T23:32:01+08:00：蓝图大号22条/金币40.48亿(已知21)；蓝图微信小号22条/金币48.16亿(已知22)；蓝图QQ小号18条/金币73.02亿(已知18)；118祝福号118条/金币3.54亿(已知118)",
+ "summary": "[claw] 采集完成 2026-11-19T03:03:01+08:00：蓝图大号22条/金币56.7亿(已知22)；蓝图微信小号22条/金币49.82亿(已知18)；蓝图QQ小号18条/金币73.36亿(已知16)；118祝福号118条/金币3.54亿(已知118)",
  "source": "claw",
- "fetched_at": "2026-11-18T23:32:01+08:00",
- "snapshot": "snapshot_20261118_233201.json",
+ "fetched_at": "2026-11-19T03:03:01+08:00",
+ "snapshot": "snapshot_20261119_030301.json",
  "accounts": [
   {
    "name": "蓝图大号",
    "rows": 22,
-   "gold_known": 21,
-   "gold_total_yi": 40.48,
-   "daily_done": 1,
-   "upload": "2026-11-18T15:19:38.111Z"
+   "gold_known": 22,
+   "gold_total_yi": 56.7,
+   "daily_done": 0,
+   "upload": "2026-11-18T18:43:15.129Z"
   },
   {
    "name": "蓝图微信小号",
    "rows": 22,
-   "gold_known": 22,
-   "gold_total_yi": 48.16,
-   "daily_done": 22,
-   "upload": "2026-11-18T07:18:34.884Z"
+   "gold_known": 18,
+   "gold_total_yi": 49.82,
+   "daily_done": 0,
+   "upload": "2026-11-18T18:45:01.282Z"
   },
   {
    "name": "蓝图QQ小号",
    "rows": 18,
-   "gold_known": 18,
-   "gold_total_yi": 73.02,
-   "daily_done": 18,
-   "upload": "2026-11-18T15:13:40.235Z"
+   "gold_known": 16,
+   "gold_total_yi": 73.36,
+   "daily_done": 0,
+   "upload": "2026-11-18T18:33:14.334Z"
   },
   {
    "name": "118祝福号",
@@ -224,6 +224,10 @@
     {
      "t": "2026-11-18T23:32:01+08:00",
      "gold_yi": 40.48
+    },
+    {
+     "t": "2026-11-19T03:03:01+08:00",
+     "gold_yi": 56.7
     }
    ]
   },
@@ -413,6 +417,10 @@
     {
      "t": "2026-11-18T23:32:01+08:00",
      "gold_yi": 48.16
+    },
+    {
+     "t": "2026-11-19T03:03:01+08:00",
+     "gold_yi": 49.82
     }
    ]
   },
@@ -602,6 +610,10 @@
     {
      "t": "2026-11-18T23:32:01+08:00",
      "gold_yi": 73.02
+    },
+    {
+     "t": "2026-11-19T03:03:01+08:00",
+     "gold_yi": 73.36
     }
    ]
   },
@@ -791,13 +803,17 @@
     {
      "t": "2026-11-18T23:32:01+08:00",
      "gold_yi": 3.54
+    },
+    {
+     "t": "2026-11-19T03:03:01+08:00",
+     "gold_yi": 3.54
     }
    ]
   }
  ],
  "ops": {
-  "date": "2026-11-18",
-  "now": "23:37",
+  "date": "2026-11-19",
+  "now": "03:08",
   "deadlines": {
    "fg_am": "主号 8:00 前 / 118 号 0–5 点",
    "daily": "主号 14:00 前 / 118 号 15–24 点",
@@ -807,114 +823,114 @@
   "accounts": [
    {
     "name": "蓝图大号",
-    "last_upload": "2026-11-18T15:19:38.111Z",
+    "last_upload": "2026-11-18T18:43:15.129Z",
     "first_zone": {
      "seq": 1,
      "nick": "蓝图421",
      "plant": "椰子",
-     "maturity": "周4|04:32"
+     "maturity": "周4|04:40"
     },
     "last_zone": {
      "seq": 22,
      "nick": "蓝图429",
      "plant": "火龙果",
-     "maturity": "周4|05:12"
+     "maturity": "周4|05:22"
     },
     "checks": {
      "fg_am": {
       "status": "done",
-      "detail": "22/22 区 2:02–2:43 1.9分/区（3:03）",
+      "detail": "22/22 区 2:02–2:43 1.8分/区（3:03）",
       "label": "翻耕 · 8:00 前"
      },
      "daily": {
-      "status": "done",
-      "detail": "22/22 已做 5.7分/区（14:03）",
+      "status": "pending",
+      "detail": "0/22（8:00 点后统计）",
       "label": "日常 · 14:00 前"
      },
      "wish": {
-      "status": "done",
-      "detail": "21/21 已祈福 3.1分/区（16:03）",
+      "status": "pending",
+      "detail": "0/22（14:00 点后统计）",
       "label": "祈福 · 16:00 前"
      },
      "fg_pm": {
-      "status": "missed",
-      "detail": "12/22 区 22:37–23:19 1.9分/区（23:32）",
+      "status": "pending",
+      "detail": "0/22 区 2:02–2:43（3:03）",
       "label": "翻耕 · 22–23 点"
      }
     }
    },
    {
     "name": "蓝图微信小号",
-    "last_upload": "2026-11-18T07:18:34.884Z",
+    "last_upload": "2026-11-18T18:45:01.282Z",
     "first_zone": {
      "seq": 1,
      "nick": "蓝图Q28",
-     "plant": "枇杷",
-     "maturity": "周3|18:07"
+     "plant": "火龙果",
+     "maturity": "周4|04:49"
     },
     "last_zone": {
      "seq": 22,
      "nick": "蓝图Q14",
-     "plant": "杨桃",
-     "maturity": "周3|18:51"
+     "plant": "葫芦",
+     "maturity": "周4|05:32"
     },
     "checks": {
      "fg_am": {
       "status": "done",
-      "detail": "22/22 区 2:02–2:46 2.0分/区（3:03）",
+      "detail": "22/22 区 2:02–2:45 1.9分/区（3:03）",
       "label": "翻耕 · 8:00 前"
      },
      "daily": {
-      "status": "done",
-      "detail": "22/22 已做 5.3分/区（14:03）",
+      "status": "pending",
+      "detail": "0/22（8:00 点后统计）",
       "label": "日常 · 14:00 前"
      },
      "wish": {
-      "status": "done",
-      "detail": "22/22 已祈福 3.4分/区（16:03）",
+      "status": "pending",
+      "detail": "0/22（14:00 点后统计）",
       "label": "祈福 · 16:00 前"
      },
      "fg_pm": {
-      "status": "missed",
-      "detail": "0/22 区 2:02–2:46（3:03）",
+      "status": "pending",
+      "detail": "0/22 区 2:02–2:45（3:03）",
       "label": "翻耕 · 22–23 点"
      }
     }
    },
    {
     "name": "蓝图QQ小号",
-    "last_upload": "2026-11-18T15:13:40.235Z",
+    "last_upload": "2026-11-18T18:33:14.334Z",
     "first_zone": {
      "seq": 1,
      "nick": "蓝图Q41",
      "plant": "椰子",
-     "maturity": "周4|04:32"
+     "maturity": "周4|04:41"
     },
     "last_zone": {
      "seq": 18,
      "nick": "蓝图Q46",
      "plant": "冬瓜",
-     "maturity": "周4|05:06"
+     "maturity": "周4|05:15"
     },
     "checks": {
      "fg_am": {
       "status": "done",
-      "detail": "18/18 区 2:01–2:34 1.8分/区（3:03）",
+      "detail": "18/18 区 2:01–2:33 1.7分/区（3:03）",
       "label": "翻耕 · 8:00 前"
      },
      "daily": {
-      "status": "done",
-      "detail": "18/18 已做 5.0分/区（14:03）",
+      "status": "pending",
+      "detail": "0/18（8:00 点后统计）",
       "label": "日常 · 14:00 前"
      },
      "wish": {
-      "status": "done",
-      "detail": "18/18 已祈福 2.6分/区（16:03）",
+      "status": "pending",
+      "detail": "0/18（14:00 点后统计）",
       "label": "祈福 · 16:00 前"
      },
      "fg_pm": {
-      "status": "missed",
-      "detail": "12/18 区 22:38–23:13 1.8分/区（23:32）",
+      "status": "pending",
+      "detail": "0/18 区 2:01–2:33（3:03）",
       "label": "翻耕 · 22–23 点"
      }
     }
@@ -936,18 +952,18 @@
     },
     "checks": {
      "fg_am": {
-      "status": "done",
-      "detail": "118/118 区 0:01–3:29 1.8分/区（5:03）",
+      "status": "pending",
+      "detail": "0/118 区 8:02–14:36（3:03）",
       "label": "翻耕 · 0–5 点"
      },
      "daily": {
       "status": "pending",
-      "detail": "0/118 已做（16:03）",
+      "detail": "0/118（15:00 点后统计）",
       "label": "日常 · 15–24 点"
      },
      "wish": {
-      "status": "done",
-      "detail": "118/118 已祈福 1.8分/区（8:03）",
+      "status": "pending",
+      "detail": "0/118（8:00 点后统计）",
       "label": "祈福 · 8–15 点"
      },
      "fg_pm": {
