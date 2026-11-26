@@ -10,7 +10,8 @@
     --fg: #1a1a1a; --fg2: #555; --fg3: #999; --bd: #e5e5e5;
     --green: #16a34a; --green-bg: #eaf7ee;
     --red: #dc2626; --red-bg: #fdecec;
-    --amber: #d97706; --gray: #bbb;
+    --amber: #d97706; --amber-bg: #fdf3e3;
+    --gray: #bbb;
     --accent: #2563eb; --accent-bg: #eaf1fd;
   }
   * { box-sizing: border-box; }
@@ -44,19 +45,73 @@
   .zone-chip .zmat { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .acc-upload { font-size: 12px; color: var(--fg3); font-variant-numeric: tabular-nums; flex: none; }
   .checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
-  .chk { border-radius: 8px; padding: 8px 10px; border: 1px solid var(--bd); }
+  .chk { border-radius: 8px; padding: 8px 10px; border: 1px solid var(--bd); cursor: pointer; transition: filter .12s ease; }
+  .chk:hover { filter: brightness(.97); }
+  .chk:active { filter: brightness(.94); }
   .chk .lbl { font-size: 12px; color: var(--fg2); display: flex; align-items: center; gap: 6px; }
+  .chk .lbl::after { content: "详情 ›"; margin-left: auto; font-size: 11px; color: var(--fg3); }
   .chk .st { font-size: 13px; margin-top: 3px; font-variant-numeric: tabular-nums; }
   .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
   .done, .late { background: var(--green-bg); }
   .done .dot, .late .dot { background: var(--green); }
   .missed { background: var(--red-bg); }
   .missed .dot { background: var(--red); }
+  .pending { background: var(--amber-bg); }
   .pending .dot { background: var(--amber); }
   .nodata .dot { background: var(--gray); }
   .legend { font-size: 12px; color: var(--fg3); margin-top: 6px; line-height: 1.7; }
   .empty { padding: 48px 0; text-align: center; color: var(--fg3); font-size: 14px; }
   .err { color: var(--red); }
+
+  /* ---- 详情弹窗 ---- */
+  .mask {
+    position: fixed; inset: 0; background: rgba(0,0,0,.42);
+    display: none; align-items: center; justify-content: center;
+    padding: 20px; z-index: 50;
+  }
+  .mask.open { display: flex; }
+  .modal {
+    background: #fff; border-radius: 14px; width: 100%; max-width: 560px;
+    max-height: 82vh; display: flex; flex-direction: column; overflow: hidden;
+    box-shadow: 0 18px 50px rgba(0,0,0,.22);
+  }
+  .m-head {
+    display: flex; align-items: center; gap: 8px;
+    padding: 13px 16px; border-bottom: 1px solid var(--bd);
+  }
+  .m-title { font-size: 15px; font-weight: 600; }
+  .m-title .m-lbl { color: var(--fg2); font-weight: 400; }
+  .m-close {
+    margin-left: auto; border: 0; background: none; font-size: 20px;
+    color: var(--fg3); cursor: pointer; line-height: 1; padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .m-close:hover { background: #f0f0f0; color: var(--fg); }
+  .m-sum {
+    padding: 10px 16px; font-size: 13px; color: var(--fg);
+    border-bottom: 1px solid var(--bd); background: #fafafa;
+    font-variant-numeric: tabular-nums;
+  }
+  .m-note { padding: 6px 16px 0; font-size: 12px; color: var(--fg3); }
+  .m-body { overflow: auto; padding: 8px 10px 12px; flex: 1; }
+  .m-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .m-table th, .m-table td {
+    text-align: left; padding: 5px 8px; border-bottom: 1px solid #f0f0f0;
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  .m-table th {
+    position: sticky; top: -8px; background: #fff; color: var(--fg3);
+    font-size: 12px; font-weight: 500; z-index: 1;
+  }
+  .m-table .c-seq { color: var(--fg3); width: 44px; }
+  .m-table .c-time { font-weight: 600; }
+  .m-table .c-bad { color: var(--red); font-weight: 600; }
+  .m-foot {
+    padding: 8px 16px; border-top: 1px solid var(--bd);
+    font-size: 12px; color: var(--fg3); font-variant-numeric: tabular-nums;
+  }
+  .m-loading, .m-error { padding: 32px 16px; text-align: center; color: var(--fg3); font-size: 13px; }
+
   @media (max-width: 480px) {
     body { padding: 10px; }
     .acc { padding: 12px; border-radius: 10px; margin-bottom: 10px; }
@@ -67,6 +122,10 @@
     .chk { padding: 7px 8px; }
     .chk .lbl { font-size: 11px; }
     .chk .st { font-size: 12px; }
+    .mask { padding: 0; align-items: flex-end; }
+    .modal { max-width: none; max-height: 88vh; border-radius: 14px 14px 0 0; }
+    .m-table { font-size: 12px; }
+    .m-table th, .m-table td { padding: 4px 6px; }
   }
 </style>
 </head>
@@ -78,7 +137,21 @@
 <div id="list"></div>
 <div class="empty" id="empty">等待数据…</div>
 <div class="legend" id="legend" style="display:none">
-  判定规则：翻耕按地块「上次」时间是否落在窗口内；日常按「领完/待领」；祈福看是否已完成。括注为采集时间。绿色完成，黄色进行中，红色未完成。页面每 5 分钟自动刷新。
+  判定规则：翻耕按地块「上次」时间是否落在窗口内；日常按「领完/待领」；祈福看是否已完成。括注为采集时间。绿色完成，黄色进行中，红色未完成。点击任意打卡格查看分区明细。页面每 5 分钟自动刷新。
+</div>
+
+<div class="mask" id="mask">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="m-head">
+      <span class="dot" id="m-dot"></span>
+      <span class="m-title"><span id="m-acc"></span> <span class="m-lbl" id="m-lbl"></span></span>
+      <button class="m-close" id="m-close" aria-label="关闭">×</button>
+    </div>
+    <div class="m-sum" id="m-sum"></div>
+    <div class="m-note" id="m-note" style="display:none"></div>
+    <div class="m-body" id="m-body"></div>
+    <div class="m-foot" id="m-foot"></div>
+  </div>
 </div>
 
 <script>
@@ -90,6 +163,10 @@
     ['fg_pm', '翻耕 · 晚班']
   ];
   var STXT = { done: '✓ ', missed: '✗ ', pending: '… ', late: '✓ ', nodata: '? ' };
+  var STCOLOR = { done: 'var(--green)', missed: 'var(--red)', pending: 'var(--amber)', late: 'var(--green)', nodata: 'var(--gray)' };
+
+  var DATA = null;   // dashboard.json
+  var SNAP_IDX = null;
 
   function p2(n) { return n < 10 ? '0' + n : '' + n; }
   function fmtUpload(iso) {
@@ -102,35 +179,26 @@
     if (!iso || isNaN(d)) return '-';
     return (d.getMonth() + 1) + '-' + p2(d.getDate()) + ' ' + p2(d.getHours()) + ':' + p2(d.getMinutes());
   }
-  function zoneChip(tag, z) {
-    var el = document.createElement('span');
-    el.className = 'zone-chip';
-    if (!z || z.seq == null) {
-      el.innerHTML = '<span class="ztag">' + tag + '</span><span class="zplant">-</span>';
-      return el;
-    }
-    el.innerHTML =
-      '<span class="ztag">' + tag + '</span>' +
-      '<span class="zseq">#' + z.seq + '</span>' +
-      '<span class="zplant"></span>' +
-      '<span class="zmat">' + (z.maturity || '-') + '</span>';
-    el.querySelector('.zplant').textContent = z.plant || '-';
-    return el;
-  }
-
-  function matTime(z) {
-    var m = z && z.maturity;
-    if (!m) return '-';
-    var i = m.indexOf('|');
-    return i >= 0 ? m.slice(i + 1) : m;
-  }
   function zoneLine(a) {
+    function mt(z) {
+      var m = z && z.maturity;
+      if (!m) return '-';
+      var i = m.indexOf('|');
+      return i >= 0 ? m.slice(i + 1) : m;
+    }
     var p1 = (a.first_zone && a.first_zone.plant) || '-';
-    var p2 = (a.last_zone && a.last_zone.plant) || '-';
-    return p1 + ' ' + matTime(a.first_zone) + ' - ' + p2 + ' ' + matTime(a.last_zone);
+    var p2p = (a.last_zone && a.last_zone.plant) || '-';
+    return p1 + ' ' + mt(a.first_zone) + ' - ' + p2p + ' ' + mt(a.last_zone);
   }
 
+  function fetchJSON(url) {
+    return fetch(url + (url.indexOf('?') >= 0 ? '&' : '?') + '_=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+  }
+
+  /* ---------- 渲染账号卡片 ---------- */
   function render(data) {
+    DATA = data;
     var list = document.getElementById('list');
     var emptyEl = document.getElementById('empty');
     var legend = document.getElementById('legend');
@@ -159,8 +227,7 @@
 
       var zones = document.createElement('div');
       zones.className = 'zones';
-      zones.innerHTML = '<span class="zlabel">成熟时间：</span>' +
-                        '<span class="zline"></span>';
+      zones.innerHTML = '<span class="zlabel">成熟时间：</span><span class="zline"></span>';
       zones.querySelector('.zline').textContent = zoneLine(a);
       box.appendChild(zones);
 
@@ -170,9 +237,16 @@
         var ck = (a.checks || {})[c[0]] || { status: 'nodata', detail: '无数据' };
         var el = document.createElement('div');
         el.className = 'chk ' + ck.status;
+        el.setAttribute('role', 'button');
+        el.setAttribute('tabindex', '0');
         el.innerHTML = '<div class="lbl"><span class="dot"></span><span>' + (ck.label || c[1]) + '</span></div>' +
                        '<div class="st">' + (STXT[ck.status] || '') + '<span class="dt"></span></div>';
         el.querySelector('.dt').textContent = ck.detail || '';
+        function open() { openDetail(a.name, c[0], ck); }
+        el.addEventListener('click', open);
+        el.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+        });
         checks.appendChild(el);
       });
       box.appendChild(checks);
@@ -180,11 +254,157 @@
     });
   }
 
-  fetch('dashboard.json?_=' + Date.now(), { cache: 'no-store' })
-    .then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    })
+  /* ---------- 详情弹窗 ---------- */
+  function extractEvidence(detail) {
+    var m = /（(\d{1,2}):(\d{2})）/.exec(detail || '');
+    if (!m) return null;
+    return { h: p2(parseInt(m[1], 10)), hm: m[1] + ':' + m[2] };
+  }
+
+  function loadSnapIndex() {
+    if (SNAP_IDX) return Promise.resolve(SNAP_IDX);
+    return fetchJSON('snapshots/index.json').then(function (idx) {
+      SNAP_IDX = idx;
+      return idx;
+    }).catch(function () { return null; });
+  }
+
+  function resolveSnapName(ev) {
+    if (!ev) return Promise.resolve(null);
+    return loadSnapIndex().then(function (idx) {
+      if (!idx || !DATA || !DATA.ops) return null;
+      var hours = idx[DATA.ops.date];
+      return (hours && hours[ev.h]) || null;
+    });
+  }
+
+  function loadSnapshot(preferred) {
+    var tries = [];
+    if (preferred) tries.push('snapshots/' + preferred);
+    if (DATA && DATA.snapshot) tries.push('snapshots/' + DATA.snapshot);
+    tries.push('latest.json');
+    var chain = Promise.reject();
+    tries.forEach(function (u) {
+      chain = chain.catch(function () { return fetchJSON(u); });
+    });
+    return chain;
+  }
+
+  function detailColumns(key) {
+    if (key === 'fg_am' || key === 'fg_pm') {
+      return {
+        note: '翻耕判定以「上次」时间为准，已按时间排序；聚成一段即在窗口内完成。',
+        sort: function (rows) {
+          return rows.slice().sort(function (a, b) {
+            return (a.lastTime || '99') < (b.lastTime || '99') ? -1 : 1;
+          });
+        },
+        cells: function (z) {
+          return [
+            { cls: 'c-seq', v: '#' + z.seq },
+            { v: z.nickname || '-' },
+            { v: z.plant || '-' },
+            { cls: 'c-time', v: z.lastTime || '-' }
+          ];
+        },
+        head: ['区', '昵称', '作物', '上次']
+      };
+    }
+    if (key === 'daily') {
+      return {
+        note: '日常按「领完/待领」判定，空值表示未领。',
+        sort: function (rows) { return rows; },
+        cells: function (z) {
+          var d = z.daily || '';
+          return [
+            { cls: 'c-seq', v: '#' + z.seq },
+            { v: z.nickname || '-' },
+            { cls: d ? '' : 'c-bad', v: d || '未领' }
+          ];
+        },
+        head: ['区', '昵称', '日常']
+      };
+    }
+    /* wish */
+    return {
+      note: '祈福以「未祈愿」开头为未完成。',
+      sort: function (rows) {
+        return rows.slice().sort(function (a, b) {
+          var aw = /^未祈愿/.test(a.wish || '') ? 1 : 0;
+          var bw = /^未祈愿/.test(b.wish || '') ? 1 : 0;
+          return aw === bw ? a.seq - b.seq : bw - aw;
+        });
+      },
+      cells: function (z) {
+        var w = z.wish || '';
+        var bad = /^未祈愿/.test(w);
+        return [
+          { cls: 'c-seq', v: '#' + z.seq },
+          { v: z.nickname || '-' },
+          { cls: bad ? 'c-bad' : '', v: w || '-' }
+        ];
+      },
+      head: ['区', '昵称', '祈福']
+    };
+  }
+
+  function openDetail(accName, key, ck) {
+    var mask = document.getElementById('mask');
+    var body = document.getElementById('m-body');
+    var note = document.getElementById('m-note');
+    var foot = document.getElementById('m-foot');
+    document.getElementById('m-acc').textContent = accName;
+    document.getElementById('m-lbl').textContent = '· ' + (ck.label || key);
+    document.getElementById('m-sum').textContent = (STXT[ck.status] || '') + (ck.detail || '无数据');
+    document.getElementById('m-dot').style.background = STCOLOR[ck.status] || 'var(--gray)';
+    body.innerHTML = '<div class="m-loading">加载分区明细…</div>';
+    note.style.display = 'none';
+    foot.textContent = '';
+    mask.classList.add('open');
+
+    var ev = extractEvidence(ck.detail);
+    resolveSnapName(ev).then(loadSnapshot).then(function (snap) {
+      var acc = null;
+      (snap.buttons || []).forEach(function (b) { if (b.name === accName) acc = b; });
+      if (!acc || !acc.info || !acc.info.length) throw new Error('快照中未找到账号分区数据');
+      var spec = detailColumns(key);
+      var rows = spec.sort(acc.info);
+      note.textContent = spec.note;
+      note.style.display = '';
+      var html = '<table class="m-table"><thead><tr>' +
+        spec.head.map(function (h) { return '<th>' + h + '</th>'; }).join('') +
+        '</tr></thead><tbody>' +
+        rows.map(function (z) {
+          return '<tr>' + spec.cells(z).map(function (c) {
+            return '<td class="' + (c.cls || '') + '"></td>';
+          }).join('') + '</tr>';
+        }).join('') + '</tbody></table>';
+      body.innerHTML = html;
+      var tds = body.querySelectorAll('tbody td');
+      var i = 0;
+      rows.forEach(function (z) {
+        spec.cells(z).forEach(function (c) {
+          tds[i++].textContent = c.v;
+        });
+      });
+      foot.textContent = '证据快照 ' + snap.fetched_at.slice(0, 16).replace('T', ' ') +
+        ' · 判定采集于 ' + (ev ? ev.hm : '-') +
+        (snap.snapshot ? ' · ' + snap.snapshot : '');
+    }).catch(function (e) {
+      body.innerHTML = '<div class="m-error">明细加载失败：' + e.message + '</div>';
+    });
+  }
+
+  function closeModal() { document.getElementById('mask').classList.remove('open'); }
+  document.getElementById('m-close').addEventListener('click', closeModal);
+  document.getElementById('mask').addEventListener('click', function (e) {
+    if (e.target === this) closeModal();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeModal();
+  });
+
+  fetchJSON('dashboard.json')
     .then(render)
     .catch(function (e) {
       document.getElementById('meta').innerHTML =
