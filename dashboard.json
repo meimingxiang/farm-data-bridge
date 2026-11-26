@@ -941,7 +941,7 @@
  ],
  "ops": {
   "date": "2026-11-26",
-  "now": "17:52",
+  "now": "17:53",
   "deadlines": {
    "fg_am": "主号 6:20–8:00 / 118 号 0–5 点",
    "daily": "主号 14:00 前 / 118 号 15–24 点",
@@ -964,7 +964,12 @@
      "plant": "牛油果",
      "maturity": "周4|18:49"
     },
-    "today_latest": null,
+    "today_latest": {
+     "seq": 19,
+     "nick": "蓝图MMX",
+     "plant": "昙花",
+     "maturity": "周4|22:36"
+    },
     "checks": {
      "fg_am": {
       "status": "done",
@@ -1003,7 +1008,12 @@
      "plant": "梨子",
      "maturity": "周5|06:31"
     },
-    "today_latest": null,
+    "today_latest": {
+     "seq": 21,
+     "nick": "蓝图Q29",
+     "plant": "牛油果",
+     "maturity": "周4|18:45"
+    },
     "checks": {
      "fg_am": {
       "status": "done",
@@ -1042,7 +1052,12 @@
      "plant": "梨子",
      "maturity": "周5|06:20"
     },
-    "today_latest": null,
+    "today_latest": {
+     "seq": 17,
+     "nick": "蓝图Q40",
+     "plant": "牛油果",
+     "maturity": "周4|18:34"
+    },
     "checks": {
      "fg_am": {
       "status": "done",
@@ -1081,7 +1096,12 @@
      "plant": "卷心菜",
      "maturity": "周5|09:16"
     },
-    "today_latest": null,
+    "today_latest": {
+     "seq": 39,
+     "nick": "蓝图Q138",
+     "plant": "荞麦",
+     "maturity": "周4|16:54"
+    },
     "checks": {
      "fg_am": {
       "status": "missed",
