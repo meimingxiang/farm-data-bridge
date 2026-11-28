@@ -1,6 +1,6 @@
 {
  "device": "蓝图",
- "fetched_at": "2026-11-28T16:03:01+08:00",
+ "fetched_at": "2026-11-28T20:03:01+08:00",
  "buttons": [
   {
    "name": "蓝图大号",
@@ -369,20 +369,20 @@
     "name": "蓝图微信小号",
     "infoCount": 22,
     "mutationCount": 0,
-    "lastUpdateTime": "2026-11-28T07:13:54.117Z"
+    "lastUpdateTime": "2026-11-28T10:27:59.244Z"
    },
    "info": [
     {
      "seq": 1,
      "nickname": "蓝图Q28",
      "level": "79",
-     "maturity": "周6|18:07",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:03",
+     "lastTime": "18:11",
      "daily": "领完",
      "wish": "蓝图Q25-0",
-     "gold": "2.02亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 2,
@@ -390,47 +390,47 @@
      "level": "49",
      "maturity": "周7|01:34",
      "plant": "猕猴桃",
-     "lastTime": "14:06",
+     "lastTime": "18:13",
      "daily": "领完",
      "wish": "蓝图Q48-10",
      "gold": "106.62万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 3,
-     "nickname": "蓝图Q31上",
+     "nickname": "蓝图Q31",
      "level": "86",
-     "maturity": "周6|18:12",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:09",
+     "lastTime": "18:15",
      "daily": "领完",
      "wish": "蓝图Q36--0",
-     "gold": "2.02亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 4,
      "nickname": "蓝图Q27",
      "level": "79",
-     "maturity": "周6|18:14",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:13",
+     "lastTime": "18:16",
      "daily": "领完",
      "wish": "蓝图Q38-0",
-     "gold": "2.89亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 5,
      "nickname": "蓝图Q12",
      "level": "49",
-     "maturity": "周7|01:39",
+     "maturity": "周7|01:40",
      "plant": "猕猴桃",
-     "lastTime": "14:16",
+     "lastTime": "18:18",
      "daily": "领完",
      "wish": "蓝图415-0",
      "gold": "404.68万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 6,
@@ -442,7 +442,7 @@
      "daily": "领完",
      "wish": "蓝图Q36-0",
      "gold": "1.64亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 7,
@@ -454,7 +454,7 @@
      "daily": "领完",
      "wish": "蓝图Q40-0",
      "gold": "3.08亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 8,
@@ -462,11 +462,11 @@
      "level": "49",
      "maturity": "周7|01:45",
      "plant": "猕猴桃",
-     "lastTime": "14:26",
+     "lastTime": "18:20",
      "daily": "领完",
      "wish": "蓝图415-0",
      "gold": "494.39万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 9,
@@ -478,7 +478,7 @@
      "daily": "领完",
      "wish": "蓝图Q36一-3",
      "gold": "1.43亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 10,
@@ -490,7 +490,7 @@
      "daily": "领完",
      "wish": "蓝图Q40-0",
      "gold": "1.44亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 11,
@@ -498,11 +498,11 @@
      "level": "49",
      "maturity": "周7|01:51",
      "plant": "猕猴桃",
-     "lastTime": "14:37",
+     "lastTime": "18:22",
      "daily": "领完",
      "wish": "蓝图415-0",
      "gold": "1614.37万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 12,
@@ -514,7 +514,7 @@
      "daily": "领完",
      "wish": "蓝图Q37一-0",
      "gold": "6.19亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 13,
@@ -526,7 +526,7 @@
      "daily": "领完",
      "wish": "蓝图Q40-1",
      "gold": "9440.86万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 14,
@@ -538,7 +538,7 @@
      "daily": "领完",
      "wish": "蓝图Q37-0",
      "gold": "3.07亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 15,
@@ -550,7 +550,7 @@
      "daily": "领完",
      "wish": "蓝图Q37-1",
      "gold": "3835.03万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 16,
@@ -562,7 +562,7 @@
      "daily": "领完",
      "wish": "蓝图Q26-0",
      "gold": "5605.77万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 17,
@@ -574,7 +574,7 @@
      "daily": "领完",
      "wish": "蓝图Q26-0",
      "gold": "9076.30万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 18,
@@ -586,7 +586,7 @@
      "daily": "领完",
      "wish": "蓝图Q26-2",
      "gold": "1.03亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 19,
@@ -594,11 +594,11 @@
      "level": "64",
      "maturity": "周7|06:27",
      "plant": "梨子",
-     "lastTime": "15:03",
+     "lastTime": "18:25",
      "daily": "领完",
      "wish": "蓝图Q25-0",
      "gold": "2343.28万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 20,
@@ -610,7 +610,7 @@
      "daily": "领完",
      "wish": "蓝图Q38-0",
      "gold": "1.67亿",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 21,
@@ -622,7 +622,7 @@
      "daily": "领完",
      "wish": "蓝图Q38-3",
      "gold": "3559.09万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     },
     {
      "seq": 22,
@@ -630,11 +630,11 @@
      "level": "65",
      "maturity": "周7|06:33",
      "plant": "梨子",
-     "lastTime": "15:13",
+     "lastTime": "18:27",
      "daily": "领完",
      "wish": "蓝图Q25-4",
      "gold": "278.40万",
-     "update_time": "2026-11-28T07:13:54.117Z"
+     "update_time": "2026-11-28T10:27:59.244Z"
     }
    ],
    "mutation": []
@@ -645,20 +645,20 @@
     "name": "蓝图QQ小号",
     "infoCount": 18,
     "mutationCount": 0,
-    "lastUpdateTime": "2026-11-28T06:55:11.171Z"
+    "lastUpdateTime": "2026-11-28T10:28:25.734Z"
    },
    "info": [
     {
      "seq": 1,
-     "nickname": "蓝图Q41一",
+     "nickname": "蓝图Q41",
      "level": "87",
-     "maturity": "周6|18:08",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:03",
+     "lastTime": "18:11",
      "daily": "领完",
      "wish": "蓝图Q34一-0",
-     "gold": "2.17亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 2,
@@ -666,35 +666,35 @@
      "level": "66",
      "maturity": "周7|05:53",
      "plant": "樱桃",
-     "lastTime": "14:06",
+     "lastTime": "18:13",
      "daily": "领完",
      "wish": "蓝图Q35-0",
      "gold": "6733.99万",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 3,
      "nickname": "蓝图Q48",
      "level": "50",
-     "maturity": "周7|01:35",
+     "maturity": "周7|01:36",
      "plant": "猕猴桃",
-     "lastTime": "14:09",
+     "lastTime": "18:14",
      "daily": "领完",
      "wish": "蓝图Q13-10",
      "gold": "1405.57万",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 4,
      "nickname": "蓝图Q26",
      "level": "80",
-     "maturity": "周6|18:12",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:12",
+     "lastTime": "18:16",
      "daily": "领完",
      "wish": "蓝图Q34-0",
-     "gold": "1.90亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 5,
@@ -702,71 +702,71 @@
      "level": "50",
      "maturity": "周7|01:39",
      "plant": "猕猴桃",
-     "lastTime": "14:15",
+     "lastTime": "18:18",
      "daily": "领完",
      "wish": "蓝图Q12-10",
      "gold": "977.84万",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 6,
      "nickname": "蓝图Q42",
      "level": "87",
-     "maturity": "周6|18:17",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:18",
+     "lastTime": "18:19",
      "daily": "领完",
      "wish": "蓝图Q31-0",
-     "gold": "2.85亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 7,
      "nickname": "蓝图Q25",
      "level": "79",
-     "maturity": "周6|18:18",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:21",
+     "lastTime": "18:21",
      "daily": "领完",
      "wish": "蓝图Q31-0",
-     "gold": "2.36亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 8,
      "nickname": "蓝图Q24",
      "level": "80",
-     "maturity": "周6|18:20",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:24",
+     "lastTime": "18:22",
      "daily": "领完",
      "wish": "蓝图Q31-3",
-     "gold": "1.06亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 9,
      "nickname": "蓝图Q36",
      "level": "86",
-     "maturity": "周6|18:21",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:27",
+     "lastTime": "18:24",
      "daily": "领完",
      "wish": "蓝图Q43--0",
-     "gold": "10.94亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 10,
      "nickname": "蓝图Q23",
      "level": "79",
-     "maturity": "周6|18:22",
+     "maturity": "",
      "plant": "牛油果",
-     "lastTime": "14:30",
+     "lastTime": "18:25",
      "daily": "领完",
      "wish": "蓝图Q30-0",
-     "gold": "4.93亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "gold": "",
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 11,
@@ -778,7 +778,7 @@
      "daily": "领完",
      "wish": "蓝图Q43-0",
      "gold": "9.03亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 12,
@@ -790,7 +790,7 @@
      "daily": "领完",
      "wish": "蓝图Q43-5",
      "gold": "6.28亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 13,
@@ -802,7 +802,7 @@
      "daily": "领完",
      "wish": "蓝图Q30#94-0",
      "gold": "11.24亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 14,
@@ -814,7 +814,7 @@
      "daily": "领完",
      "wish": "蓝图Q35-0",
      "gold": "1.78亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 15,
@@ -826,7 +826,7 @@
      "daily": "领完",
      "wish": "蓝图Q30--1",
      "gold": "6.64亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 16,
@@ -838,7 +838,7 @@
      "daily": "领完",
      "wish": "蓝图Q35-1",
      "gold": "1.89亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 17,
@@ -850,7 +850,7 @@
      "daily": "领完",
      "wish": "蓝图Q10-10",
      "gold": "2.29亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     },
     {
      "seq": 18,
@@ -858,11 +858,11 @@
      "level": "65",
      "maturity": "周7|06:20",
      "plant": "樱桃",
-     "lastTime": "14:54",
+     "lastTime": "18:28",
      "daily": "领完",
      "wish": "蓝图Q34-0",
      "gold": "1.06亿",
-     "update_time": "2026-11-28T06:55:11.171Z"
+     "update_time": "2026-11-28T10:28:25.734Z"
     }
    ],
    "mutation": []
@@ -873,68 +873,68 @@
     "name": "118祝福号",
     "infoCount": 118,
     "mutationCount": 2,
-    "lastUpdateTime": "2026-11-28T04:31:26.990Z"
+    "lastUpdateTime": "2026-11-28T10:57:28.147Z"
    },
    "info": [
     {
      "seq": 1,
      "nickname": "蓝图100",
      "level": "58",
-     "maturity": "周6|09:51",
-     "plant": "菠萝",
-     "lastTime": "02:21",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "617.55万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "maturity": "周7|00:22",
+     "plant": "橘子",
+     "lastTime": "12:39",
+     "daily": "",
+     "wish": "蓝图Q29-0",
+     "gold": "989.83万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 2,
      "nickname": "蓝图101",
      "level": "57",
-     "maturity": "周6|09:54",
-     "plant": "菠萝",
-     "lastTime": "02:26",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "484.65万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "maturity": "周7|00:25",
+     "plant": "橘子",
+     "lastTime": "12:42",
+     "daily": "",
+     "wish": "蓝图Q29-0",
+     "gold": "882.64万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 3,
      "nickname": "蓝图102",
      "level": "57",
-     "maturity": "周6|16:18",
+     "maturity": "周6|16:19",
      "plant": "菠萝",
-     "lastTime": "02:32",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1352.23万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "12:45",
+     "daily": "",
+     "wish": "蓝图Q29中-4",
+     "gold": "402.23万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 4,
      "nickname": "蓝图103",
      "level": "57",
-     "maturity": "周6|16:21",
+     "maturity": "周6|16:20",
      "plant": "菠萝",
-     "lastTime": "02:39",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1018.89万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "12:47",
+     "daily": "",
+     "wish": "蓝图Q28-0",
+     "gold": "68.89万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 5,
      "nickname": "蓝图104",
      "level": "57",
-     "maturity": "周6|16:22",
+     "maturity": "周6|16:23",
      "plant": "菠萝",
-     "lastTime": "02:44",
-     "daily": "领完",
-     "wish": "未祈愿-0",
+     "lastTime": "12:50",
+     "daily": "",
+     "wish": "蓝图Q28-0",
      "gold": "826.67万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 6,
@@ -942,23 +942,23 @@
      "level": "57",
      "maturity": "周6|16:24",
      "plant": "菠萝",
-     "lastTime": "02:50",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1285.59万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "12:53",
+     "daily": "",
+     "wish": "蓝图Q28-0",
+     "gold": "335.59万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 7,
      "nickname": "蓝图106",
      "level": "57",
-     "maturity": "周6|16:43",
+     "maturity": "周6|16:44",
      "plant": "菠萝",
-     "lastTime": "02:57",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1075.48万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "12:56",
+     "daily": "",
+     "wish": "蓝图416-0",
+     "gold": "125.48万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 8,
@@ -966,11 +966,11 @@
      "level": "57",
      "maturity": "周6|16:45",
      "plant": "菠萝",
-     "lastTime": "03:03",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1278.42万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "12:59",
+     "daily": "",
+     "wish": "蓝图416-0",
+     "gold": "328.42万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 9,
@@ -978,11 +978,11 @@
      "level": "56",
      "maturity": "周6|16:47",
      "plant": "菠萝",
-     "lastTime": "03:09",
-     "daily": "领完",
-     "wish": "未祈愿-0",
+     "lastTime": "13:02",
+     "daily": "",
+     "wish": "蓝图416-1",
      "gold": "794.75万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 10,
@@ -990,11 +990,11 @@
      "level": "57",
      "maturity": "周6|16:48",
      "plant": "菠萝",
-     "lastTime": "03:14",
-     "daily": "领完",
-     "wish": "未祈愿-0",
+     "lastTime": "13:04",
+     "daily": "",
+     "wish": "蓝图417一-0",
      "gold": "688.56万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 11,
@@ -1002,11 +1002,11 @@
      "level": "55",
      "maturity": "周6|16:50",
      "plant": "荞麦",
-     "lastTime": "03:20",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "953.81万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:07",
+     "daily": "",
+     "wish": "蓝图417-0",
+     "gold": "169.81万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 12,
@@ -1014,11 +1014,11 @@
      "level": "55",
      "maturity": "周6|16:51",
      "plant": "菠萝",
-     "lastTime": "03:25",
-     "daily": "领完",
-     "wish": "未祈愿-0",
+     "lastTime": "13:10",
+     "daily": "",
+     "wish": "蓝图417-0",
      "gold": "626.47万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 13,
@@ -1026,11 +1026,11 @@
      "level": "57",
      "maturity": "周6|16:55",
      "plant": "菠萝",
-     "lastTime": "03:31",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "959.47万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:13",
+     "daily": "",
+     "wish": "蓝图418-0",
+     "gold": "9.47万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 14,
@@ -1038,11 +1038,11 @@
      "level": "57",
      "maturity": "周6|16:56",
      "plant": "菠萝",
-     "lastTime": "03:37",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1249.71万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:16",
+     "daily": "",
+     "wish": "蓝图418-0",
+     "gold": "299.71万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 15,
@@ -1050,11 +1050,11 @@
      "level": "56",
      "maturity": "周6|16:58",
      "plant": "菠萝",
-     "lastTime": "03:43",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1018.67万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:19",
+     "daily": "",
+     "wish": "蓝图418-0",
+     "gold": "183.67万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 16,
@@ -1062,11 +1062,11 @@
      "level": "56",
      "maturity": "周6|16:59",
      "plant": "菠萝",
-     "lastTime": "03:50",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1393.09万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:22",
+     "daily": "",
+     "wish": "蓝图419-0",
+     "gold": "34.98万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 17,
@@ -1074,11 +1074,11 @@
      "level": "55",
      "maturity": "周6|17:01",
      "plant": "荞麦",
-     "lastTime": "03:56",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1229.31万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:25",
+     "daily": "",
+     "wish": "蓝图419-0",
+     "gold": "445.31万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 18,
@@ -1086,11 +1086,11 @@
      "level": "56",
      "maturity": "周6|17:03",
      "plant": "菠萝",
-     "lastTime": "04:02",
-     "daily": "领完",
-     "wish": "未祈愿-0",
+     "lastTime": "13:28",
+     "daily": "",
+     "wish": "蓝图419-0",
      "gold": "855.90万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 19,
@@ -1098,23 +1098,23 @@
      "level": "55",
      "maturity": "周6|17:06",
      "plant": "荞麦",
-     "lastTime": "04:08",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1061.84万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:31",
+     "daily": "",
+     "wish": "蓝图420-0",
+     "gold": "277.84万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 20,
      "nickname": "蓝图Q119",
      "level": "55",
-     "maturity": "周6|17:07",
+     "maturity": "周6|17:08",
      "plant": "荞麦",
-     "lastTime": "04:14",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "859.41万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:34",
+     "daily": "",
+     "wish": "蓝图420-0",
+     "gold": "75.41万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 21,
@@ -1122,11 +1122,11 @@
      "level": "55",
      "maturity": "周6|17:09",
      "plant": "荞麦",
-     "lastTime": "04:22",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "948.90万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:54",
+     "daily": "",
+     "wish": "蓝图420--2",
+     "gold": "164.90万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 22,
@@ -1134,11 +1134,11 @@
      "level": "55",
      "maturity": "周6|17:12",
      "plant": "菠萝",
-     "lastTime": "04:28",
-     "daily": "领完",
-     "wish": "未祈愿-0",
+     "lastTime": "13:56",
+     "daily": "",
+     "wish": "蓝图421-0",
      "gold": "818.89万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 23,
@@ -1146,23 +1146,23 @@
      "level": "55",
      "maturity": "周6|17:15",
      "plant": "荞麦",
-     "lastTime": "04:34",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1316.85万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "13:59",
+     "daily": "",
+     "wish": "蓝图421-0",
+     "gold": "122.74万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 24,
      "nickname": "蓝图Q123",
      "level": "55",
-     "maturity": "周6|17:17",
+     "maturity": "周6|17:18",
      "plant": "荞麦",
-     "lastTime": "04:40",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "934.59万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:02",
+     "daily": "",
+     "wish": "蓝图421-0",
+     "gold": "150.59万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 25,
@@ -1170,11 +1170,11 @@
      "level": "55",
      "maturity": "周6|17:20",
      "plant": "荞麦",
-     "lastTime": "04:46",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "1273.20万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:05",
+     "daily": "",
+     "wish": "蓝图422-0",
+     "gold": "489.20万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 26,
@@ -1182,23 +1182,23 @@
      "level": "55",
      "maturity": "周6|17:23",
      "plant": "菠萝",
-     "lastTime": "04:52",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "618.74万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:08",
+     "daily": "",
+     "wish": "蓝图422-0",
+     "gold": "67.14万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 27,
      "nickname": "蓝图Q126",
      "level": "55",
-     "maturity": "周6|17:25",
+     "maturity": "周6|17:26",
      "plant": "荞麦",
-     "lastTime": "04:59",
-     "daily": "领完",
-     "wish": "未祈愿-0",
-     "gold": "862.99万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:11",
+     "daily": "",
+     "wish": "蓝图422-2",
+     "gold": "78.99万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 28,
@@ -1206,71 +1206,71 @@
      "level": "54",
      "maturity": "周6|17:29",
      "plant": "荞麦",
-     "lastTime": "05:04",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1220.33万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:14",
+     "daily": "",
+     "wish": "蓝图423-0",
+     "gold": "486.33万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 29,
      "nickname": "蓝图Q128",
      "level": "54",
-     "maturity": "周6|06:51",
+     "maturity": "周7|01:59",
      "plant": "橘子",
-     "lastTime": "05:10",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "738.33万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:16",
+     "daily": "",
+     "wish": "蓝图423-0",
+     "gold": "1390.43万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 30,
      "nickname": "蓝图Q129",
      "level": "53",
-     "maturity": "周6|06:54",
+     "maturity": "周7|02:02",
      "plant": "木瓜",
-     "lastTime": "05:15",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "644.34万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:19",
+     "daily": "",
+     "wish": "蓝图423-0",
+     "gold": "1017.86万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 31,
      "nickname": "蓝图Q130",
      "level": "54",
-     "maturity": "周6|06:57",
+     "maturity": "周7|02:05",
      "plant": "橘子",
-     "lastTime": "05:21",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "606.82万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:22",
+     "daily": "",
+     "wish": "蓝图424上-0",
+     "gold": "531.44万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 32,
      "nickname": "蓝图Q131",
      "level": "55",
-     "maturity": "周6|07:03",
+     "maturity": "周7|02:08",
      "plant": "橘子",
-     "lastTime": "05:27",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1039.65万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:25",
+     "daily": "",
+     "wish": "蓝图424-0",
+     "gold": "620.88万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 33,
      "nickname": "蓝图Q132",
      "level": "55",
-     "maturity": "周6|17:48",
+     "maturity": "周6|17:49",
      "plant": "荞麦",
-     "lastTime": "05:33",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1292.26万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:28",
+     "daily": "",
+     "wish": "蓝图424-2",
+     "gold": "508.26万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 34,
@@ -1278,23 +1278,23 @@
      "level": "55",
      "maturity": "周6|17:54",
      "plant": "荞麦",
-     "lastTime": "05:39",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1465.87万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:31",
+     "daily": "",
+     "wish": "蓝图425-0",
+     "gold": "33.76万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 35,
      "nickname": "蓝图Q134",
      "level": "56",
-     "maturity": "周6|07:19",
+     "maturity": "周7|02:17",
      "plant": "橘子",
-     "lastTime": "05:45",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "971.95万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:34",
+     "daily": "",
+     "wish": "蓝图425.-0",
+     "gold": "736.64万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 36,
@@ -1302,35 +1302,35 @@
      "level": "55",
      "maturity": "周6|18:06",
      "plant": "荞麦",
-     "lastTime": "05:51",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1526.99万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:37",
+     "daily": "",
+     "wish": "蓝图425-0",
+     "gold": "20.69万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 37,
      "nickname": "蓝图Q136",
      "level": "55",
-     "maturity": "周6|18:25",
+     "maturity": "周6|18:26",
      "plant": "荞麦",
-     "lastTime": "05:57",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1403.11万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:40",
+     "daily": "",
+     "wish": "蓝图426全二-0",
+     "gold": "619.11万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 38,
      "nickname": "蓝图Q137",
      "level": "55",
-     "maturity": "周6|07:51",
+     "maturity": "周7|02:26",
      "plant": "橘子",
-     "lastTime": "06:03",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "932.97万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:43",
+     "daily": "",
+     "wish": "蓝图426-0",
+     "gold": "763.96万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 39,
@@ -1338,35 +1338,35 @@
      "level": "55",
      "maturity": "周6|18:37",
      "plant": "荞麦",
-     "lastTime": "06:09",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1002.04万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:46",
+     "daily": "",
+     "wish": "蓝图426-0",
+     "gold": "218.04万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 40,
      "nickname": "蓝图Q139",
      "level": "55",
-     "maturity": "周7|05:42",
+     "maturity": "周7|05:43",
      "plant": "荞麦",
-     "lastTime": "06:15",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1565.38万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:49",
+     "daily": "",
+     "wish": "蓝图427-0",
+     "gold": "47.38万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 41,
      "nickname": "蓝图Q140",
      "level": "55",
-     "maturity": "周7|05:48",
+     "maturity": "周7|05:49",
      "plant": "荞麦",
-     "lastTime": "06:21",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1137.71万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:52",
+     "daily": "",
+     "wish": "蓝图427中-0",
+     "gold": "353.71万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 42,
@@ -1374,35 +1374,35 @@
      "level": "54",
      "maturity": "周7|05:55",
      "plant": "荞麦",
-     "lastTime": "06:28",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1214.97万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:55",
+     "daily": "",
+     "wish": "蓝图427-0",
+     "gold": "163.87万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 43,
      "nickname": "蓝图Q142",
      "level": "54",
-     "maturity": "周7|06:01",
+     "maturity": "周7|06:02",
      "plant": "荞麦",
-     "lastTime": "06:34",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1332.41万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "14:58",
+     "daily": "",
+     "wish": "蓝图428-0",
+     "gold": "188.32万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 44,
      "nickname": "蓝图Q143",
      "level": "54",
-     "maturity": "周7|06:08",
+     "maturity": "周7|06:12",
      "plant": "荞麦",
-     "lastTime": "06:41",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1450.82万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:22",
+     "daily": "",
+     "wish": "蓝图428-0",
+     "gold": "306.72万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 45,
@@ -1410,11 +1410,11 @@
      "level": "55",
      "maturity": "周7|06:16",
      "plant": "荞麦",
-     "lastTime": "06:49",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1163.07万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:25",
+     "daily": "",
+     "wish": "蓝图428-0",
+     "gold": "379.07万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 46,
@@ -1422,23 +1422,23 @@
      "level": "53",
      "maturity": "周7|06:22",
      "plant": "荞麦",
-     "lastTime": "06:55",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1340.88万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:28",
+     "daily": "",
+     "wish": "蓝图429-0",
+     "gold": "338.78万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 47,
      "nickname": "蓝图Q146",
      "level": "53",
-     "maturity": "周6|18:44",
+     "maturity": "周6|19:22",
      "plant": "木瓜",
-     "lastTime": "07:01",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1418.26万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:31",
+     "daily": "",
+     "wish": "蓝图429-0",
+     "gold": "95.26万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 48,
@@ -1446,23 +1446,23 @@
      "level": "52",
      "maturity": "周7|06:35",
      "plant": "荞麦",
-     "lastTime": "07:08",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1204.08万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:33",
+     "daily": "",
+     "wish": "蓝图429-4",
+     "gold": "248.98万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 49,
      "nickname": "蓝图Q148",
      "level": "53",
-     "maturity": "周6|18:57",
+     "maturity": "周6|19:34",
      "plant": "木瓜",
-     "lastTime": "07:14",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1037.33万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:36",
+     "daily": "",
+     "wish": "蓝图430--0",
+     "gold": "35.23万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 50,
@@ -1470,47 +1470,47 @@
      "level": "51",
      "maturity": "周7|06:48",
      "plant": "荞麦",
-     "lastTime": "07:20",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "921.64万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:39",
+     "daily": "",
+     "wish": "蓝图430一-0",
+     "gold": "363.28万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 51,
      "nickname": "蓝图Q150",
      "level": "54",
-     "maturity": "周7|06:54",
+     "maturity": "周7|06:55",
      "plant": "荞麦",
-     "lastTime": "07:27",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1427.19万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:42",
+     "daily": "",
+     "wish": "蓝图430-0",
+     "gold": "8.19万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 52,
      "nickname": "蓝图Q151",
      "level": "54",
-     "maturity": "周6|19:17",
+     "maturity": "周6|19:51",
      "plant": "木瓜",
-     "lastTime": "07:34",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "3042.88万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:45",
+     "daily": "",
+     "wish": "蓝图431-0",
+     "gold": "139.08万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 53,
      "nickname": "蓝图Q152",
      "level": "52",
-     "maturity": "周7|07:07",
+     "maturity": "周7|07:08",
      "plant": "荞麦",
-     "lastTime": "07:40",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1263.45万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:48",
+     "daily": "",
+     "wish": "蓝图431-0",
+     "gold": "225.78万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 54,
@@ -1518,23 +1518,23 @@
      "level": "53",
      "maturity": "周7|07:14",
      "plant": "荞麦",
-     "lastTime": "07:47",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "1307.15万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:51",
+     "daily": "",
+     "wish": "蓝图431-0",
+     "gold": "317.35万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 55,
      "nickname": "蓝图Q154",
      "level": "52",
-     "maturity": "周6|19:38",
+     "maturity": "周6|20:10",
      "plant": "木瓜",
-     "lastTime": "07:55",
-     "daily": "领完",
-     "wish": "未祈愿-10",
-     "gold": "920.08万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "lastTime": "15:54",
+     "daily": "",
+     "wish": "蓝图432-1",
+     "gold": "42.99万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 56,
@@ -1542,11 +1542,11 @@
      "level": "52",
      "maturity": "周7|07:28",
      "plant": "荞麦",
-     "lastTime": "08:02",
+     "lastTime": "15:56",
      "daily": "",
      "wish": "蓝图432-0",
-     "gold": "576.83万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "98.83万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 57,
@@ -1554,11 +1554,11 @@
      "level": "52",
      "maturity": "周7|07:32",
      "plant": "荞麦",
-     "lastTime": "08:05",
+     "lastTime": "15:57",
      "daily": "",
      "wish": "蓝图432-0",
-     "gold": "683.77万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "205.77万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 58,
@@ -1566,23 +1566,23 @@
      "level": "52",
      "maturity": "周7|07:35",
      "plant": "荞麦",
-     "lastTime": "08:09",
+     "lastTime": "15:59",
      "daily": "",
      "wish": "蓝图433-0",
-     "gold": "659.58万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "21.58万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 59,
      "nickname": "蓝图Q158",
      "level": "51",
-     "maturity": "周7|07:39",
+     "maturity": "周7|07:38",
      "plant": "荞麦",
-     "lastTime": "08:12",
+     "lastTime": "16:01",
      "daily": "",
      "wish": "蓝图433-0",
-     "gold": "727.05万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "145.73万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 60,
@@ -1590,11 +1590,11 @@
      "level": "52",
      "maturity": "周7|07:42",
      "plant": "荞麦",
-     "lastTime": "08:16",
+     "lastTime": "16:03",
      "daily": "",
      "wish": "蓝图433-0",
-     "gold": "667.56万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "189.56万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 61,
@@ -1602,23 +1602,23 @@
      "level": "51",
      "maturity": "周7|07:46",
      "plant": "荞麦",
-     "lastTime": "08:20",
+     "lastTime": "16:05",
      "daily": "",
      "wish": "蓝图434--0",
-     "gold": "985.16万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "77.06万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 62,
      "nickname": "蓝图Q161",
      "level": "50",
-     "maturity": "周7|07:49",
+     "maturity": "周7|07:50",
      "plant": "猕猴桃",
-     "lastTime": "08:23",
+     "lastTime": "16:07",
      "daily": "",
      "wish": "蓝图434-0",
-     "gold": "574.50万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "23.44万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 63,
@@ -1626,11 +1626,11 @@
      "level": "50",
      "maturity": "周7|07:53",
      "plant": "猕猴桃",
-     "lastTime": "08:27",
+     "lastTime": "16:09",
      "daily": "",
-     "wish": "蓝图434-1",
-     "gold": "711.47万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图434-0",
+     "gold": "165.53万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 64,
@@ -1638,11 +1638,11 @@
      "level": "49",
      "maturity": "周7|07:57",
      "plant": "猕猴桃",
-     "lastTime": "08:31",
+     "lastTime": "16:11",
      "daily": "",
      "wish": "蓝图435-0",
-     "gold": "732.38万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "210.78万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 65,
@@ -1650,11 +1650,11 @@
      "level": "48",
      "maturity": "周7|08:00",
      "plant": "猕猴桃",
-     "lastTime": "08:33",
+     "lastTime": "16:12",
      "daily": "",
      "wish": "蓝图435-0",
      "gold": "507.64万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 66,
@@ -1662,11 +1662,11 @@
      "level": "50",
      "maturity": "周7|08:03",
      "plant": "猕猴桃",
-     "lastTime": "08:37",
+     "lastTime": "16:15",
      "daily": "",
-     "wish": "蓝图435-2",
-     "gold": "653.79万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图435-0",
+     "gold": "1473.94万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 67,
@@ -1674,11 +1674,11 @@
      "level": "50",
      "maturity": "周7|08:07",
      "plant": "猕猴桃",
-     "lastTime": "08:41",
+     "lastTime": "16:17",
      "daily": "",
      "wish": "蓝图Q22一-0",
-     "gold": "808.54万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "247.54万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 68,
@@ -1686,11 +1686,11 @@
      "level": "51",
      "maturity": "周7|08:11",
      "plant": "荞麦",
-     "lastTime": "08:44",
+     "lastTime": "16:19",
      "daily": "",
      "wish": "蓝图Q27-0",
-     "gold": "687.25万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "103.39万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 69,
@@ -1698,23 +1698,23 @@
      "level": "49",
      "maturity": "周7|08:14",
      "plant": "猕猴桃",
-     "lastTime": "08:48",
+     "lastTime": "16:20",
      "daily": "",
      "wish": "蓝图Q27-0",
-     "gold": "734.66万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "202.66万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 70,
      "nickname": "蓝图Q169",
      "level": "48",
-     "maturity": "周7|08:17",
+     "maturity": "周7|08:18",
      "plant": "猕猴桃",
-     "lastTime": "08:51",
+     "lastTime": "16:22",
      "daily": "",
      "wish": "蓝图Q27-0",
-     "gold": "525.30万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "154.19万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 71,
@@ -1722,11 +1722,11 @@
      "level": "48",
      "maturity": "周7|08:21",
      "plant": "猕猴桃",
-     "lastTime": "08:55",
+     "lastTime": "16:24",
      "daily": "",
      "wish": "蓝图Q24-0",
-     "gold": "504.10万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "10.27万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 72,
@@ -1734,11 +1734,11 @@
      "level": "50",
      "maturity": "周7|08:24",
      "plant": "猕猴桃",
-     "lastTime": "08:58",
+     "lastTime": "16:26",
      "daily": "",
      "wish": "蓝图Q24-0",
-     "gold": "721.27万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "169.19万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 73,
@@ -1746,11 +1746,11 @@
      "level": "48",
      "maturity": "周7|08:45",
      "plant": "猕猴桃",
-     "lastTime": "09:19",
+     "lastTime": "16:28",
      "daily": "",
      "wish": "蓝图Q24-0",
-     "gold": "987.29万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "100.33万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 74,
@@ -1758,11 +1758,11 @@
      "level": "49",
      "maturity": "周7|08:49",
      "plant": "猕猴桃",
-     "lastTime": "09:23",
+     "lastTime": "16:29",
      "daily": "",
      "wish": "蓝图Q22-0",
-     "gold": "1033.58万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "91.49万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 75,
@@ -1770,35 +1770,35 @@
      "level": "48",
      "maturity": "周7|08:53",
      "plant": "猕猴桃",
-     "lastTime": "09:27",
+     "lastTime": "16:31",
      "daily": "",
      "wish": "蓝图Q234-0",
-     "gold": "916.80万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "184.05万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 76,
      "nickname": "蓝图Q175",
      "level": "47",
-     "maturity": "周7|08:56",
+     "maturity": "周7|08:57",
      "plant": "猕猴桃",
-     "lastTime": "09:31",
+     "lastTime": "16:33",
      "daily": "",
      "wish": "蓝图Q23-0",
-     "gold": "782.35万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "139.26万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 77,
      "nickname": "蓝图Q176",
      "level": "49",
-     "maturity": "周7|09:00",
+     "maturity": "周7|09:01",
      "plant": "猕猴桃",
-     "lastTime": "09:34",
+     "lastTime": "16:35",
      "daily": "",
-     "wish": "蓝图Q23-3",
-     "gold": "865.38万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图Q23-0",
+     "gold": "158.29万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 78,
@@ -1806,11 +1806,11 @@
      "level": "50",
      "maturity": "周7|09:04",
      "plant": "猕猴桃",
-     "lastTime": "09:38",
+     "lastTime": "16:38",
      "daily": "",
-     "wish": "蓝图Q22-2",
-     "gold": "1026.03万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图Q22-0",
+     "gold": "65.32万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 79,
@@ -1818,11 +1818,11 @@
      "level": "47",
      "maturity": "周7|09:08",
      "plant": "猕猴桃",
-     "lastTime": "09:42",
+     "lastTime": "16:39",
      "daily": "",
      "wish": "蓝图Q21-0",
-     "gold": "855.38万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "91.07万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 80,
@@ -1830,35 +1830,35 @@
      "level": "50",
      "maturity": "周7|09:12",
      "plant": "猕猴桃",
-     "lastTime": "09:46",
+     "lastTime": "16:41",
      "daily": "",
      "wish": "蓝图Q21-0",
-     "gold": "781.38万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "220.38万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 81,
      "nickname": "蓝图Q180",
      "level": "49",
-     "maturity": "周7|09:15",
+     "maturity": "周7|09:16",
      "plant": "猕猴桃",
-     "lastTime": "09:49",
+     "lastTime": "17:00",
      "daily": "",
      "wish": "蓝图Q21-0",
-     "gold": "733.73万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "201.73万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 82,
      "nickname": "蓝图Q181",
      "level": "50",
-     "maturity": "周7|09:19",
+     "maturity": "周7|09:20",
      "plant": "荞麦",
-     "lastTime": "09:53",
+     "lastTime": "17:02",
      "daily": "",
      "wish": "蓝图Q20-0",
-     "gold": "584.78万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "184.98万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 83,
@@ -1866,11 +1866,11 @@
      "level": "48",
      "maturity": "周7|09:22",
      "plant": "猕猴桃",
-     "lastTime": "09:56",
+     "lastTime": "17:04",
      "daily": "",
      "wish": "蓝图Q20-0",
-     "gold": "639.92万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "158.74万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 84,
@@ -1878,11 +1878,11 @@
      "level": "48",
      "maturity": "周7|09:26",
      "plant": "猕猴桃",
-     "lastTime": "10:00",
+     "lastTime": "17:07",
      "daily": "",
-     "wish": "蓝图Q20-3",
-     "gold": "518.83万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图Q20-0",
+     "gold": "40.83万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 85,
@@ -1890,11 +1890,11 @@
      "level": "48",
      "maturity": "周7|09:29",
      "plant": "猕猴桃",
-     "lastTime": "10:03",
+     "lastTime": "17:08",
      "daily": "",
      "wish": "蓝图Q19-0",
-     "gold": "742.23万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "365.51万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 86,
@@ -1902,47 +1902,47 @@
      "level": "48",
      "maturity": "周7|09:33",
      "plant": "猕猴桃",
-     "lastTime": "10:07",
+     "lastTime": "17:10",
      "daily": "",
      "wish": "蓝图Q19-0",
-     "gold": "637.92万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "134.92万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 87,
      "nickname": "蓝图Q186",
      "level": "49",
-     "maturity": "周6|11:48",
+     "maturity": "周7|04:56",
      "plant": "木瓜",
-     "lastTime": "10:10",
+     "lastTime": "17:12",
      "daily": "",
-     "wish": "蓝图Q19-1",
-     "gold": "814.26万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图Q19-0",
+     "gold": "633.59万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 88,
      "nickname": "蓝图Q187",
      "level": "46",
-     "maturity": "周6|11:53",
+     "maturity": "周7|04:58",
      "plant": "西瓜",
-     "lastTime": "10:14",
+     "lastTime": "17:14",
      "daily": "",
      "wish": "蓝图Q18-0",
-     "gold": "575.04万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "471.98万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 89,
      "nickname": "蓝图Q188",
      "level": "43",
-     "maturity": "周6|15:19",
+     "maturity": "周7|16:44",
      "plant": "辣椒",
-     "lastTime": "10:17",
+     "lastTime": "17:16",
      "daily": "",
      "wish": "蓝图Q18-0",
-     "gold": "431.22万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "281.04万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 90,
@@ -1950,47 +1950,47 @@
      "level": "45",
      "maturity": "周7|09:47",
      "plant": "辣椒",
-     "lastTime": "10:21",
+     "lastTime": "17:19",
      "daily": "",
-     "wish": "蓝图Q18-3",
-     "gold": "577.58万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图Q18-0",
+     "gold": "168.58万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 91,
      "nickname": "蓝图Q190",
      "level": "46",
-     "maturity": "周6|12:08",
-     "plant": "西瓜",
-     "lastTime": "10:24",
+     "maturity": "周7|16:48",
+     "plant": "猕猴桃",
+     "lastTime": "17:20",
      "daily": "",
      "wish": "蓝图Q17-0",
-     "gold": "733.30万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "415.85万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 92,
      "nickname": "蓝图Q191",
      "level": "44",
-     "maturity": "周6|12:14",
+     "maturity": "周7|05:06",
      "plant": "西瓜",
-     "lastTime": "10:28",
+     "lastTime": "17:22",
      "daily": "",
      "wish": "蓝图Q17-0",
-     "gold": "816.48万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "323.94万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 93,
      "nickname": "蓝图Q192",
      "level": "43",
-     "maturity": "周6|22:30",
+     "maturity": "周6|22:47",
      "plant": "西瓜",
-     "lastTime": "10:49",
+     "lastTime": "17:24",
      "daily": "",
-     "wish": "蓝图Q17-1",
-     "gold": "435.02万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图Q17-0",
+     "gold": "75.02万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 94,
@@ -1998,23 +1998,23 @@
      "level": "42",
      "maturity": "周7|10:19",
      "plant": "辣椒",
-     "lastTime": "10:52",
+     "lastTime": "17:27",
      "daily": "",
      "wish": "蓝图Q16-0",
-     "gold": "354.44万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "179.80万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 95,
      "nickname": "蓝图Q194",
      "level": "43",
-     "maturity": "周6|22:38",
+     "maturity": "周6|22:53",
      "plant": "西瓜",
-     "lastTime": "10:56",
+     "lastTime": "17:28",
      "daily": "",
      "wish": "蓝图Q16-0",
-     "gold": "386.26万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "26.26万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 96,
@@ -2022,11 +2022,11 @@
      "level": "40",
      "maturity": "周7|10:26",
      "plant": "卷心菜",
-     "lastTime": "11:00",
+     "lastTime": "17:30",
      "daily": "",
      "wish": "蓝图Q16-0",
-     "gold": "364.19万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "100.33万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 97,
@@ -2034,23 +2034,23 @@
      "level": "41",
      "maturity": "周7|10:30",
      "plant": "辣椒",
-     "lastTime": "11:03",
+     "lastTime": "17:32",
      "daily": "",
      "wish": "蓝图Q15-0",
-     "gold": "193.11万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "200.37万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 98,
      "nickname": "蓝图Q197",
      "level": "44",
-     "maturity": "周7|10:33",
+     "maturity": "周7|10:34",
      "plant": "辣椒",
-     "lastTime": "11:07",
+     "lastTime": "17:34",
      "daily": "",
      "wish": "蓝图Q15-0",
-     "gold": "388.79万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "3.79万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 99,
@@ -2058,83 +2058,83 @@
      "level": "42",
      "maturity": "周7|10:37",
      "plant": "辣椒",
-     "lastTime": "11:10",
+     "lastTime": "17:37",
      "daily": "",
-     "wish": "蓝图Q15-2",
+     "wish": "蓝图Q15-0",
      "gold": "220.83万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 100,
      "nickname": "蓝图Q199",
      "level": "38",
-     "maturity": "周6|22:56",
+     "maturity": "周6|23:10",
      "plant": "西瓜",
-     "lastTime": "11:13",
+     "lastTime": "17:39",
      "daily": "",
      "wish": "蓝图Q14-0",
      "gold": "158.74万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 101,
      "nickname": "蓝图Q200",
      "level": "42",
-     "maturity": "周7|10:43",
+     "maturity": "周7|10:44",
      "plant": "辣椒",
-     "lastTime": "11:17",
+     "lastTime": "17:40",
      "daily": "",
      "wish": "蓝图Q14-0",
      "gold": "243.13万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 102,
      "nickname": "蓝图Q201",
      "level": "41",
-     "maturity": "周6|23:03",
+     "maturity": "周6|23:16",
      "plant": "西瓜",
-     "lastTime": "11:21",
+     "lastTime": "17:43",
      "daily": "",
-     "wish": "蓝图Q14-2",
-     "gold": "391.78万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "wish": "蓝图Q14-0",
+     "gold": "83.78万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 103,
      "nickname": "蓝图Q202",
      "level": "42",
-     "maturity": "周6|13:30",
-     "plant": "西瓜",
-     "lastTime": "11:23",
+     "maturity": "周7|17:13",
+     "plant": "辣椒",
+     "lastTime": "17:45",
      "daily": "",
      "wish": "蓝图Q46-0",
-     "gold": "15.14万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "278.67万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 104,
      "nickname": "蓝图Q203",
      "level": "42",
-     "maturity": "周6|23:12",
+     "maturity": "周6|23:24",
      "plant": "西瓜",
-     "lastTime": "11:27",
+     "lastTime": "17:46",
      "daily": "",
      "wish": "蓝图Q46-0",
      "gold": "196.46万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 105,
      "nickname": "蓝图Q204",
      "level": "39",
-     "maturity": "周7|10:56",
+     "maturity": "周7|10:57",
      "plant": "卷心菜",
-     "lastTime": "11:31",
+     "lastTime": "17:48",
      "daily": "",
      "wish": "蓝图Q46-0",
-     "gold": "302.69万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "74.39万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 106,
@@ -2142,11 +2142,11 @@
      "level": "42",
      "maturity": "周7|11:00",
      "plant": "辣椒",
-     "lastTime": "11:33",
+     "lastTime": "17:50",
      "daily": "",
      "wish": "蓝图Q47-0",
-     "gold": "163.43万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "170.28万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 107,
@@ -2154,11 +2154,11 @@
      "level": "40",
      "maturity": "周7|11:03",
      "plant": "辣椒",
-     "lastTime": "11:37",
+     "lastTime": "17:52",
      "daily": "",
      "wish": "蓝图Q47-0",
      "gold": "181.43万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 108,
@@ -2166,11 +2166,11 @@
      "level": "38",
      "maturity": "周7|11:07",
      "plant": "卷心菜",
-     "lastTime": "11:41",
+     "lastTime": "17:54",
      "daily": "",
      "wish": "蓝图Q47-0",
-     "gold": "289.90万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "62.90万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 109,
@@ -2178,11 +2178,11 @@
      "level": "39",
      "maturity": "周7|11:11",
      "plant": "卷心菜",
-     "lastTime": "11:44",
+     "lastTime": "17:56",
      "daily": "",
      "wish": "蓝图Q13-0",
-     "gold": "187.94万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "195.22万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 110,
@@ -2190,23 +2190,23 @@
      "level": "40",
      "maturity": "周7|11:14",
      "plant": "辣椒",
-     "lastTime": "11:47",
+     "lastTime": "17:58",
      "daily": "",
      "wish": "蓝图Q13-0",
-     "gold": "129.52万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "136.79万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 111,
      "nickname": "蓝图Q210",
      "level": "39",
-     "maturity": "周6|23:33",
+     "maturity": "周6|23:43",
      "plant": "西瓜",
-     "lastTime": "11:50",
+     "lastTime": "18:00",
      "daily": "",
      "wish": "未祈愿-10",
-     "gold": "364.88万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "39.64万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 112,
@@ -2214,23 +2214,23 @@
      "level": "40",
      "maturity": "周7|11:21",
      "plant": "辣椒",
-     "lastTime": "11:54",
-     "daily": "",
+     "lastTime": "18:06",
+     "daily": "领完",
      "wish": "蓝图Q12-0",
-     "gold": "184.71万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "374.38万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 113,
      "nickname": "蓝图Q212",
      "level": "41",
-     "maturity": "周6|23:40",
+     "maturity": "周6|23:52",
      "plant": "西瓜",
-     "lastTime": "11:58",
-     "daily": "",
+     "lastTime": "18:12",
+     "daily": "领完",
      "wish": "蓝图Q11-0",
-     "gold": "394.63万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "281.03万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 114,
@@ -2238,11 +2238,11 @@
      "level": "39",
      "maturity": "周7|11:45",
      "plant": "卷心菜",
-     "lastTime": "12:19",
-     "daily": "",
+     "lastTime": "18:17",
+     "daily": "领完",
      "wish": "蓝图Q11-0",
-     "gold": "320.32万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "520.37万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 115,
@@ -2250,11 +2250,11 @@
      "level": "37",
      "maturity": "周7|11:48",
      "plant": "卷心菜",
-     "lastTime": "12:21",
-     "daily": "",
+     "lastTime": "18:23",
+     "daily": "领完",
      "wish": "蓝图Q10-0",
-     "gold": "216.23万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "364.23万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 116,
@@ -2262,35 +2262,35 @@
      "level": "37",
      "maturity": "周7|11:51",
      "plant": "卷心菜",
-     "lastTime": "12:24",
-     "daily": "",
+     "lastTime": "18:45",
+     "daily": "领完",
      "wish": "蓝图Q10-0",
-     "gold": "112.50万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "267.56万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 117,
      "nickname": "蓝图Q216",
      "level": "37",
-     "maturity": "周7|11:54",
+     "maturity": "周7|11:55",
      "plant": "卷心菜",
-     "lastTime": "12:28",
-     "daily": "",
+     "lastTime": "18:51",
+     "daily": "领完",
      "wish": "蓝图Q48-0",
-     "gold": "177.33万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "332.39万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     },
     {
      "seq": 118,
      "nickname": "蓝图Q217",
      "level": "38",
-     "maturity": "周7|11:58",
+     "maturity": "周7|11:57",
      "plant": "卷心菜",
-     "lastTime": "12:31",
-     "daily": "",
+     "lastTime": "18:57",
+     "daily": "领完",
      "wish": "蓝图Q49-0",
-     "gold": "133.44万",
-     "update_time": "2026-11-28T04:31:26.930Z"
+     "gold": "360.18万",
+     "update_time": "2026-11-28T10:57:28.099Z"
     }
    ],
    "mutation": [
@@ -2298,13 +2298,13 @@
      "seq": 67,
      "nickname": "蓝图Q165",
      "mutation": "[{\"地号\":1,\"成熟\":\"41秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":2,\"成熟\":\"40秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":3,\"成熟\":\"37秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":4,\"成熟\":\"36秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":5,\"成熟\":\"34秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":6,\"成熟\":\"32秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":7,\"成熟\":\"30秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":8,\"成熟\":\"28秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":9,\"成熟\":\"26秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":10,\"成熟\":\"24秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":11,\"成熟\":\"23秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":12,\"成熟\":\"20秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":13,\"成熟\":\"13秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":14,\"成熟\":\"12秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":15,\"成熟\":\"10秒后成熟开皇\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":16,\"成熟\":\"8秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":17,\"成熟\":\"6秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":18,\"成熟\":\"4秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":19,\"成熟\":\"2秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":20,\"成熟\":\"0秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"}]",
-     "update_time": "2026-11-28T04:31:26.989Z"
+     "update_time": "2026-11-28T10:57:28.147Z"
     },
     {
      "seq": 68,
      "nickname": "蓝图Q167",
      "mutation": "[{\"地号\":1,\"成熟\":\"48秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":2,\"成熟\":\"46秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":3,\"成熟\":\"44秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":4,\"成熟\":\"42秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"倍率\":\"2.5倍\",\"地号\":5,\"成熟\":\"40秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":6,\"成熟\":\"38秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":7,\"成熟\":\"36秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":8,\"成熟\":\"34秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":9,\"成熟\":\"32秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":10,\"成熟\":\"30秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":11,\"成熟\":\"28秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"倍率\":\"1.5倍\",\"地号\":12,\"成熟\":\"26秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":13,\"成熟\":\"19秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"倍率\":\"1.5倍\",\"地号\":14,\"成熟\":\"17秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":15,\"成熟\":\"15秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":16,\"成熟\":\"13秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":17,\"成熟\":\"11秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":18,\"成熟\":\"9秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":19,\"成熟\":\"2秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"},{\"地号\":20,\"成熟\":\"0秒后成熟\",\"植物\":\"辣椒\",\"祝福\":\"0/3\",\"级别\":\"9\"}]",
-     "update_time": "2026-11-28T04:31:26.990Z"
+     "update_time": "2026-11-28T10:57:28.147Z"
     }
    ]
   }
