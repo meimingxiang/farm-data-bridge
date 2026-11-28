@@ -180,11 +180,16 @@
     return (d.getMonth() + 1) + '-' + p2(d.getDate()) + ' ' + p2(d.getHours()) + ':' + p2(d.getMinutes());
   }
   function zoneLine(a) {
-    var z = a.today_latest;
-    if (!z) return '-';
-    var m = z.maturity || '';
-    var i = m.indexOf('|');
-    return (z.plant || '-') + ' ' + (i >= 0 ? m.slice(i + 1) : m);
+    function mt(z) {
+      var m = z && z.maturity;
+      if (!m) return '-';
+      var i = m.indexOf('|');
+      return i >= 0 ? m.slice(i + 1) : m;
+    }
+    var f = a.first_zone, l = a.last_zone;
+    if (!f && !l) return '-';
+    var ft = mt(f), lt = mt(l);
+    return (f && l && f.seq !== l.seq) ? ft + ' - ' + lt : ft;
   }
 
   function fetchJSON(url) {
