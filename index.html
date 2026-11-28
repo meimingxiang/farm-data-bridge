@@ -186,8 +186,14 @@
       var i = m.indexOf('|');
       return i >= 0 ? m.slice(i + 1) : m;
     }
+    function dy(z) {
+      var m = z && z.maturity || '';
+      var i = m.indexOf('|');
+      return i >= 0 ? m.slice(0, i) : '';
+    }
     var f = a.first_zone, l = a.last_zone;
     if (!f && !l) return '-';
+    if (l && a.prev_zone && dy(l) !== dy(f)) l = a.prev_zone;  // 尾区跨天改用倒数第二区
     var ft = mt(f), lt = mt(l);
     return (f && l && f.seq !== l.seq) ? ft + ' - ' + lt : ft;
   }
