@@ -893,7 +893,7 @@
  ],
  "ops": {
   "date": "2026-11-28",
-  "now": "14:08",
+  "now": "15:22",
   "deadlines": {
    "fg_am": "主号 6:20–8:00 / 118 号 0–5 点",
    "daily": "主号 14:00 前 / 118 号 15–24 点",
@@ -915,6 +915,12 @@
      "nick": "蓝图429",
      "plant": "牛油果",
      "maturity": "周6|18:56"
+    },
+    "prev_zone": {
+     "seq": 21,
+     "nick": "蓝图420一",
+     "plant": "牛油果",
+     "maturity": "周6|18:54"
     },
     "today_latest": {
      "seq": 19,
@@ -960,6 +966,12 @@
      "plant": "梨子",
      "maturity": "周7|06:33"
     },
+    "prev_zone": {
+     "seq": 21,
+     "nick": "蓝图Q29",
+     "plant": "牛油果",
+     "maturity": "周6|18:48"
+    },
     "today_latest": {
      "seq": 21,
      "nick": "蓝图Q29",
@@ -1004,6 +1016,12 @@
      "plant": "樱桃",
      "maturity": "周7|06:20"
     },
+    "prev_zone": {
+     "seq": 17,
+     "nick": "蓝图Q40",
+     "plant": "牛油果",
+     "maturity": "周6|18:34"
+    },
     "today_latest": {
      "seq": 17,
      "nick": "蓝图Q40",
@@ -1047,6 +1065,12 @@
      "nick": "蓝图Q217",
      "plant": "卷心菜",
      "maturity": "周7|11:58"
+    },
+    "prev_zone": {
+     "seq": 117,
+     "nick": "蓝图Q216",
+     "plant": "卷心菜",
+     "maturity": "周7|11:54"
     },
     "today_latest": {
      "seq": 113,
